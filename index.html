@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <title>Mein Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Parisienne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Parisienne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <img class="img-aot" src="./img/aot.jpg" alt="AOT" />
+    <div class="main-container">
+      <h1>Herzlich willkommen</h1>
+      Hier findest Du einen Überblick über unsere Speisen
+    </div>
+
+    <!-- Menu-->
+    <div class="menu">
+      <a href="#contact">KONTAKT</a>
+      <a href="#contact">RESERVIEREN</a>
+      <a class="order-btn" href="./bestellformular.html">ONLINE BESTELLUNG</a>
+      <a href="#adress">ANFAHRT</a>
+    </div>
+
+    <!--Oeffnungszeiten -->
+    <div class="container">
+      <h2 class="cursive">Unsere Öffnungszeiten</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>Mo-Fr:</td>
+            <td>12:00-23:00</td>
+          </tr>
+          <tr>
+            <td>Sa:</td>
+            <td>11:00-24:00</td>
+          </tr>
+          <tr>
+            <td>So:</td>
+            <td>11:00-24:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!--Anfahrt -->
+    <div class="container">
+      <h2 id="adress" class="cursive">Anfahrt</h2>
+      Unsere Adresse lautet: Königstraße 24, 70173 Stuttgart 
+      <br>
+      <iframe
+      class="google-maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d657.288957654077!2d9.178051069684775!3d48.77891519820762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799db35b7971955%3A0xc2fcaa63d1b4a0d!2sK%C3%B6nigstra%C3%9Fe%2024%2C%2070173%20Stuttgart!5e0!3m2!1sde!2sde!4v1699608063563!5m2!1sde!2sde"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!--Tageskarte -->
+    <div class="container">
+      <h2 class="cursive">Tageskarte</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>Tagessuppe</td>
+            <td>5,50€</td>
+            <td>Kürbissuppe</td>
+          </tr>
+          <tr>
+            <td>Pizze Margarita</td>
+            <td>8,50€</td>
+            <td>einfach lecker</td>
+          </tr>
+          <tr>
+            <td>Pizze Salami</td>
+            <td>8,90€</td>
+            <td>sehr lecker</td>
+          </tr>
+          <tr>
+            <td>Lasange</td>
+            <td>9,50€</td>
+            <td>nach Art des Hauses</td>
+          </tr>
+          <tr>
+            <td>Trotelini al Forno</td>
+            <td>10,90€</td>
+            <td>mit extra viel Käse</td>
+          </tr>
+          <tr>
+            <td>Tiramisu</td>
+            <td>6,20€</td>
+            <td>unheimlich lecker</td>
+          </tr>
+        </tbody>
+      </table>
+      Jetzt die Tageskarte <a href="./download/tageskarte.pdf">herunterladen</a>
+    </div>
+
+    <!--Kontakt-->
+    <div class="container">
+      <h2 id="contact" class="cursive">Kontakt</h2>
+      So kannst Du uns kontaktieren:<br />
+      Telefon:<a href="tel:07111234567">07111234567</a><br />
+      Email:<a href="mailto:info@napoli.com">info@napoli.com</a><br /><br />
+    </div>
+
+    <!--Footer-->
+    <div class="container footer">
+      <div>
+      (c) Copyright 2023 Ralf Völker
+    </div>
+    <div>
+      <a href="./impressum.html">Impressum </a>
+      |
+      <a href="./datenschutz.html"> Datenschutz</a>
+    </div>
+  </body>
+</html>
